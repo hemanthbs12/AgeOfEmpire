@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/AgeOfEmpire/v16
+/AgeOfEmpire/bin
+/.vs/AgeOfEmpire/config
+/AgeOfEmpire/obj
+/AgeOfEmpire.Domain/bin
+/AgeOfEmpire.Domain/obj
+/AgeOfEmpire.Domain.UnitTest/bin
+/AgeOfEmpire.Domain.UnitTest/obj
+/AgeOfEmpire.ServiceModel/bin
+/AgeOfEmpire.ServiceModel/obj
+/Battle.Domain/obj
+/Battle.Domain.Test/obj
+/ServiceGateway/bin
+/ServiceGateway/obj
