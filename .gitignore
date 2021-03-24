@@ -16,3 +16,5 @@
 /Battle.Domain.Test/obj
 /ServiceGateway/bin
 /ServiceGateway/obj
+/AgeOfEmpire/Properties/PublishProfiles
+/AgeOfEmpire/AgeOfEmpire.Api.csproj.user
