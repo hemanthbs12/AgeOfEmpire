@@ -17,6 +17,15 @@ namespace AgeOfEmpire.Domain.Services
 
         private Unit getWinnerOutOfTwoTeams(Unit unit1, Unit unit2)
         {
+            //Validating if Attack is 0
+            if(unit1.Attack == 0)
+            {
+                return unit2;
+            }
+            if (unit2.Attack == 0)
+            {
+                return unit1;
+            }
             if(unit2.HitPoints/unit1.Attack < unit1.HitPoints / unit2.Attack)
             {
                 return unit1;
